@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  font-size: 20px;
+}
+
+label {
+  font-size: 36px;
+}
+
+input {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 1px solid grey;
+}
+
+.passinfo {
+  font-size: 18px;
+  color: rgb(172, 169, 169);
+}
+
+button {
+  margin: 0 30px;
+  padding: 10px 30px;
+  background: none;
+  border: 2px solid #00cfff;
+  border-radius: 5px;
+  color: #00cfff;
+  font-size: 36px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.3s, box-shadow 0.3s;
+  box-shadow: 3px 3px 10px #00cfff;
+}
+
+button:hover {
+  color: #00ffae;
+  box-shadow: 3px 3px 10px #00ffae;
+}
+.headers {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.generate-password-button {
+  margin-top: 20px;
+}
+input {
+  width: 600px;
+}
+strong {
+  color: red;
+}
+.back {
+  padding: 10px 20px;
+  background-color: transparent;
+  font-size: 24px;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 3px solid black;
+  color: black;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+.back:hover {
+  border: 3px solid white;
+  background-color: white;
+  color: black;
+}
